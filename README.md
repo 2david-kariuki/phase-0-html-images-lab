@@ -88,10 +88,7 @@ Note that we've separated out each attribute on its own line in the HTML above.
 When an element gets too long for one line in your text editor, separating the
 code as shown above will keep your HTML code more readable.
 
-> **Note**: While alt text isn't required _for the browser_, adherence to the
-> Americans with Disabilities Act is often enforced through legislation. Your
-> browser will not throw an error if there is no alt text with an image, so it
-> is up to you as the developer to adhere to best practices for accessibility.
+> 
 
 ### The Image Title Attribute
 
@@ -104,7 +101,7 @@ might look something like this:
 <img
   src="../images/my_company_logo.png"
   alt="my company name"
-  title="We're here to help you!"
+  title="We're here to help you"
 />
 ```
 
